@@ -4,15 +4,32 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Open Demand Report</title>
+<link rel="stylesheet" href="styles.css" />
+<style>
+  .report-container {
+    border: 0.5px solid #4472C4; /* Adjusted border size */
+    border-radius: 5px; /* Rounded border corners */
+    background-color: #E7E6E6; /* Background color */
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  .report-container summary::before {
+    content: "\2022"; /* Bullet point character */
+    color: #4472C4; /* Bullet point color */
+    font-size: 1.2em; /* Bullet point size */
+    margin-right: 3px;
+  }
+</style>
 </head>
 <body>
+<div class="report-container">
 <details>
 <summary>Open Demand Report</summary>
 <div>
 <ul>
-<li>GTD</li>
-<li>R2D2</li>
-<li>Combined</li>
+<li><a href="https://capgemini.sharepoint.com/sites/IDGlobalOperationsDashboards/SitePages/Open-Demand-Report---GTD.aspx">GTD</a></li>
+<li><a href="https://capgemini.sharepoint.com/sites/IDGlobalOperationsDashboards/SitePages/Open-Demand-Report--R2D2.aspx">R2D2</a></li>
+<li><a href="https://capgemini.sharepoint.com/sites/IDGlobalOperationsDashboards/SitePages/Open-Demand-Report---Combined.aspx">Combined</a></li>
 </ul>
 </div>
 </details>
@@ -20,12 +37,12 @@
 <summary>Demand Cancellation Report</summary>
 <div>
 <ul>
-<li>GTD</li>
-<li>R2D2</li>
-<li>Combined</li>
+<li><a href="https://capgemini.sharepoint.com/sites/IDGlobalOperationsDashboards/SitePages/Demand-Cancellation-Report---GTD.aspx">GTD</a></li>
+<li><a href="https://capgemini.sharepoint.com/sites/IDGlobalOperationsDashboards/SitePages/Demand-Cancellation-Report---R2D2.aspx">R2D2</a></li>
+<li><a href="https://capgemini.sharepoint.com/sites/IDGlobalOperationsDashboards/SitePages/Demand-Cancellation-Report---Completed.aspx">Combined</a></li>
 </ul>
 </div>
 </details>
+</div>
 </body>
 </html>
-
